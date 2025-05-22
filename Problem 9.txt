@@ -1,0 +1,14 @@
+public class Basic{
+
+	public static void main(String args[]) {
+		Scanner input = new Scanner(System.in);
+	        String s="Raisul Islam";
+	        
+	        s=s.replaceAll("\\s", "_");
+	  
+	        System.out.println(s);
+
+	      input.close();
+	
+	}    
+}	
